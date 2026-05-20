@@ -1,0 +1,28 @@
+--- src/screens/Dashboard.tsx
++++ src/screens/Dashboard.tsx
+@@ -205,7 +205,7 @@
+                 </View>
+                 <Text style={[styles.rewardLabel, styles.rewardLabelWelcome]}>WELCOME REWARD</Text>
+                 <Text style={styles.rewardHeadline}>30% OFF on Food Bill</Text>
+-                <Text style={[styles.validText, styles.validTextWelcome]}>Valid till 25 May 2026</Text>
++                <Text style={[styles.validText, styles.validTextWelcome]}>Valid till 25 May 2025</Text>
+               </View>
+               <View style={styles.rewardFooter}>
+                 <View style={styles.dayBadge}>
+@@ -228,7 +228,7 @@
+                 </View>
+                 <Text style={[styles.rewardLabel, styles.rewardLabelNext]}>NEXT REWARD</Text>
+                 <Text style={styles.rewardHeadline}>20% OFF on Food Bill</Text>
+-                <Text style={[styles.validText, styles.validTextNext]}>Valid till 24 Jun 2026</Text>
++                <Text style={[styles.validText, styles.validTextNext]}>Valid till 24 Jun 2025</Text>
+               </View>
+               <View style={styles.rewardFooter}>
+                 <View style={[styles.dayBadge, styles.dayBadgeNext]}>
+@@ -251,7 +251,7 @@
+                 </View>
+                 <Text style={[styles.rewardLabel, styles.rewardLabelLoyalty]}>LOYALTY REWARD</Text>
+                 <Text style={styles.rewardHeadline}>15% OFF on Food Bill</Text>
+-                <Text style={[styles.validText, styles.validTextLoyalty]}>Valid till 25 May 2026</Text>
++                <Text style={[styles.validText, styles.validTextLoyalty]}>Valid till 25 May 2025</Text>
+                 <View style={styles.loyaltyVisitsRow}>
+                   {[1, 2, 3, 4, 5].map(n => (
