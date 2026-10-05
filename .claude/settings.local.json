@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(run)",
+      "Bash(adb devices *)",
+      "Bash(emulator -list-avds)",
+      "Bash(java -version)",
+      "Bash(nohup emulator -avd Pixel_9 -netdelay none -netspeed full)",
+      "Bash(disown)",
+      "Bash(echo \"launched, pid $!\")",
+      "Bash(npx react-native *)",
+      "Bash(adb logcat *)",
+      "Bash(adb shell *)",
+      "Bash(adb exec-out *)",
+      "Bash(npm install *)",
+      "Bash(adb kill-server *)",
+      "Bash(adb start-server *)",
+      "Bash(echo \"launched pid $!\")",
+      "Bash(npm run *)",
+      "Bash(awk '{print $2, $3, $11, $12}')"
+    ]
+  }
+}

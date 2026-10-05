@@ -16,7 +16,6 @@ export const SIGNED_IN_USER: SessionUser = {
 
 export function isValidLogin(email: string, password: string): boolean {
   return (
-    email.trim().toLowerCase() === LOGIN_EMAIL &&
-    password === LOGIN_PASSWORD
+    email.trim().toLowerCase() === LOGIN_EMAIL && password === LOGIN_PASSWORD
   );
 }
